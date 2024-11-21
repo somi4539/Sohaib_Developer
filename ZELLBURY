@@ -1,10 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
+<!-- Code injected by Five-server -->
+  <script async data-id="five-server" data-file="f:\Web Assignment\zellbury.html" type="application/javascript" src="/fiveserver.js"></script>
+  </head>
 <body>
   
 </body>
@@ -12,7 +15,7 @@
 <doctype html> 
     <html>
       <meta>
-                    <head> <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}">
+                    <head> <link rel="stylesheet" href="css/bootstrap.css">
                         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     
             </head>
@@ -24,7 +27,7 @@
                 <!-- ICON -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-text-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
-              </svg>   <b>ZELLBURY</b></a></h1>
+              </svg> <b>ZELLBURY</b></a></h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -42,10 +45,10 @@
                       Items
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="https://zellbury.com/cdn/shop/files/Western_women-west_20241107_d_1660x.jpg?v=1730899986">Woman</a></li>
-                      <li><a class="dropdown-item mt-3" href="https://zellbury.com/cdn/shop/files/Boys_T-Shirt_kids_20241107_d_1660x.jpg?v=1730899985">Child</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://zellbury.com/cdn/shop/files/Men_Polo_1_1660x.jpg?v=1730272780">Man</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -74,13 +77,13 @@
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://zellbury.com/cdn/shop/files/Unstitched_unstitched_20241107_d_1660x.jpg?v=1730899989" class="d-block w-100" alt="...">
+                <img src="https://zellbury.com/cdn/shop/files/Unstitched_unstitched_20241107_d_1660x.jpg?v=1730899989" class="d-block" width-100% alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://zellbury.com/cdn/shop/files/Men_outerwear_1_1660x.jpg?v=1729938347" class="d-block w-100" alt="...">
+                <img src="https://zellbury.com/cdn/shop/files/Men_outerwear_1_1660x.jpg?v=1729938347" class="d-block" width-100% alt="...">
               </div>
               <div class="carousel-item">
-                <img src="https://zellbury.com/cdn/shop/files/Girls_Pret_kids_20241107_d_1660x.jpg?v=1730899983" class="d-block w-100" alt="...">
+                <img src="https://zellbury.com/cdn/shop/files/Girls_Pret_kids_20241107_d_1660x.jpg?v=1730899983" class="d-block"width-100% alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -108,8 +111,8 @@
                                         <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
                                       </svg>
                                 </P>
-            <div class="bg-dark mt-5 ms-3 bi-text-left text-white">
-            <div class="container-fluid">
+            <div class="bg-dark mt-5 ms-3 me-2 ps-3 bi-text-left text-white w-100%">
+              <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
                         CAN WE HELP YOUR?                             
@@ -138,8 +141,7 @@
                     </div>
                 </div>
                </div>
-</div>
-            
+              </div>
 
 
               
